@@ -14,9 +14,9 @@ matplotlib = "^3.8.0"
 pillow = "^10.1.0"
 numpy = "^1.26.1"
 
-nvidia-cublas-cu12 = "^12.3.2.9"
-nvidia-cuda-nvrtc-cu12 = "^12.3.52"
-nvidia-cudnn-cu12 = "^8.9.5.29"
+# nvidia-cublas-cu12 = "^12.3.2.9"
+# nvidia-cuda-nvrtc-cu12 = "^12.3.52"
+# nvidia-cudnn-cu12 = "^8.9.5.29"
 
 
 [tool.poetry.group.dev.dependencies]

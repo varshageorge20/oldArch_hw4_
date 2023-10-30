@@ -1280,42 +1280,6 @@ files = [
 ]
 
 [[package]]
-name = "nvidia-cublas-cu12"
-version = "12.3.2.9"
-description = "CUBLAS native runtime libraries"
-optional = false
-python-versions = ">=3"
-files = [
-    {file = "nvidia_cublas_cu12-12.3.2.9-py3-none-manylinux1_x86_64.whl", hash = "sha256:87cc0514009361159b85a65e2f63a7df5ff6363a9e77800f0549b44b583b917a"},
-    {file = "nvidia_cublas_cu12-12.3.2.9-py3-none-win_amd64.whl", hash = "sha256:23e288e14cadd24eb645a11215326449cfd763f809dc6552bb4db0e1983cdf8e"},
-]
-
-[[package]]
-name = "nvidia-cuda-nvrtc-cu12"
-version = "12.3.52"
-description = "NVRTC native runtime libraries"
-optional = false
-python-versions = ">=3"
-files = [
-    {file = "nvidia_cuda_nvrtc_cu12-12.3.52-py3-none-manylinux1_x86_64.whl", hash = "sha256:22f24e1d980ebab0f3b33539248bf523b4f54ee381fcfb4534bfee32882317c6"},
-    {file = "nvidia_cuda_nvrtc_cu12-12.3.52-py3-none-win_amd64.whl", hash = "sha256:c1330498a6ac669edcf60b51c46d10b8983870d78c28fb18707f9d04705d3b78"},
-]
-
-[[package]]
-name = "nvidia-cudnn-cu12"
-version = "8.9.5.29"
-description = "cuDNN runtime libraries"
-optional = false
-python-versions = ">=3"
-files = [
-    {file = "nvidia_cudnn_cu12-8.9.5.29-py3-none-win_amd64.whl", hash = "sha256:2d64680794eec2dc7e30509108d0d2af71cdd71f52ad522bf689f5629aaa2040"},
-]
-
-[package.dependencies]
-nvidia-cublas-cu12 = "*"
-nvidia-cuda-nvrtc-cu12 = "*"
-
-[[package]]
 name = "oauthlib"
 version = "3.2.2"
 description = "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic"
@@ -2165,4 +2129,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "28c8c05b1dbb49231286b35a78982d70ff0ae63126e0a598522c919b57ef48e0"
+content-hash = "c5004b711eb799b4356c86a5c545beb0cd8b8aeb107f3f94656ebe66e158bc7a"
